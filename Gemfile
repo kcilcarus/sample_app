@@ -23,6 +23,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'test-unit'
+
+gem 'rubyzip','0.9.9'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,6 +54,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara'
+  #gem 'libnotify', '0.8.0'
 end
 
 group :production do
