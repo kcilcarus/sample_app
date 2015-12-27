@@ -5,7 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -29,7 +28,8 @@ gem 'test-unit'
 gem 'rubyzip','0.9.9'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+#gem 'bcrypt'
+gem 'bcrypt-ruby','~>3.1.2'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
